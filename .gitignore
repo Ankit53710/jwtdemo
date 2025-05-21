@@ -31,3 +31,84 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# ==================================
+# Java & Build Artifacts
+# ==================================
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven & Gradle
+target/
+build/
+logs/
+*.log
+*.tmp
+*.bak
+
+# Maven Wrapper
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot Config Files (SECURITY)
+# WARNING: these often contain secrets — DO NOT PUSH
+application.properties
+application.yml
+.env
+
+# Optionally keep example config templates
+application.properties.example
+application.yml.example
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# STS (Spring Tool Suite)
+.apt_generated/
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Test Reports
+/test-output/
+*.test
+
+# Local Database, temp or generated data
+*.h2.db
+*.sqlite
+*.db
+*.mv.db
+*.log
+
+# ==================================
+# Git Security
+# ==================================
+
+# Never include your .env or secrets
+.env
+*.key
+*.pem
+*.jks
+*.p12

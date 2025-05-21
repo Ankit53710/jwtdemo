@@ -6,6 +6,8 @@ target/
 src/main/java/**/service/
 src/main/java/**/config/
 
+**/Config/
+**/Service/
 
 ### STS ###
 .apt_generated
